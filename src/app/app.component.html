@@ -1,9 +1,20 @@
 <header id="store">
   <h1>Greengrocers</h1>
   <!-- your store here -->
+  <div class="store-container">
+    <app-filters></app-filters>
+    <app-sort></app-sort>
+    <app-item-list></app-item-list>
+  </div>
 </header>
 <main id="cart">
   <h2>Your Cart</h2>
   <!-- your cart here -->
+  <div class="cart--item-list-container">
+    <app-cart-list></app-cart-list>
+  </div>
   <!-- your total here -->
+  <div class="total-section">
+    <app-total></app-total>
+  </div>
 </main>
